@@ -476,6 +476,56 @@ margin-top:20px;
 }
 
 
+/*Animations CSS All
+*/
+/*animate_dev_nas1 (Menu)
+*/
+.animat_nas_1 {
+transform-origin: left;
+animation: animat_nas_2  800ms;
+}
+.animat_nas_2 {
+transform-origin: center;  
+animation: animat_nas_2  1600ms;
+}
+.animat_nas_3{
+transform-origin: right;  
+animation: animat_nas_2  2400ms;
+}
+/*animate_dev_nas2 (Menu)
+*/
+.animat_nas_1x {
+transform-origin: center;
+animation: animat_nas_2  800ms;
+}
+.animat_nas_2x {
+transform-origin: center;  
+animation: animat_nas_2  1600ms;
+}
+.animat_nas_3x{
+transform-origin: center;  
+animation: animat_nas_2  2400ms;
+}
+
+@keyframes  animat_nas_2{
+  0% {
+    transform: scaleX(0);
+    opacity: 0.20;
+  }
+   50% {
+    transform: scaleX(0);
+    opacity: 0.50;
+  }  
+  100% {
+    transform: scaleX(1);
+	opacity: 1;
+  }
+}
+
+
+
+
+
 @media (max-width: 1440px) {/*Mobile,Tablette*//*True*/
 
 .compos-3-container input[type="checkbox"]:checked ~ .compos-3-B_0> .compos-3-B_3{
