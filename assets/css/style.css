@@ -155,10 +155,129 @@ line-height:var(--h1-line-height);
 }
 
 /*Surcharge-All
-***************/
-
+*/
 /*<header>-All 
-***************/
+*/
+
+
+
+/*composant-loader
+*/
+.container-loader{
+position: fixed;
+height: 100%;
+width: 100%; 	
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;	
+z-index: 10;
+opacity: 0;	
+animation: call_frame_1 3s;/*T*/
+}
+.corp-loader {
+    width: 300px;
+    height: 200px;
+    line-height: 200px;
+    position: fixed;
+    top: 50%; 
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -150px;
+    background-color: #fff;
+	background-color: rgba(0,0,0,0.5);
+    border-radius: 5px;
+    text-align: center;
+    z-index: 11; 
+	overflow:hidden;
+}
+/*Loader-elem-Dom
+*/
+.container-loader-nas{
+padding-top:20px;
+box-sizing:border-box;
+}
+.loader-nas {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  border: 3px solid;
+  border-color: #FF79DA #FF79DA transparent transparent;
+  box-sizing: border-box;
+  animation: call_frame_2 1s linear infinite;  
+}
+.loader-nas::after,
+.loader-nas::before {
+  content: '';  
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border: 3px solid;
+  border-color: transparent transparent #9356DC  #9356DC ;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  animation: call_frame_3 0.5s linear infinite;
+  transform-origin: center center;
+}
+.loader-nas::before {
+  width: 48px;
+  height: 48px;
+  border-color: #99E2D0 #99E2D0 transparent transparent;
+  animation: call_frame_2 1.5s linear infinite;
+}
+ 
+/*Animat-All
+*/ 
+@keyframes  call_frame_2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} 
+@keyframes  call_frame_3{
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes  call_frame_1{
+0% {
+   opacity: 1;
+   background-color: rgba(0,0,0,0.5);
+  }
+100% {
+    opacity: 1;
+    z-index: 9999;
+	background-color: rgba(0,0,0,0.5);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*Composant-1
 */
