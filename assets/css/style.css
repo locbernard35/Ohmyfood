@@ -42,8 +42,8 @@ ol, ul {
 
 
 
-/*Balises sémantiques::
-minimum =>header, nav,h1-h2-h3,main,section,article,footer=>True
+/*Balises sémantiques:
+minimum =>(header), (nav),(h1)-h2-h3,(main),(section),article,(footer)=>True
 */
 
 /******Css Pricipal Mobile first+++***********/
@@ -51,7 +51,7 @@ minimum =>header, nav,h1-h2-h3,main,section,article,footer=>True
 * {/*All-éléments-Dom*/   
 	font-family: Roboto,sans-serif;
 }
-}
+
 /*Design System Config: couleurs  charte
 */
 :root {	
@@ -109,12 +109,7 @@ display: flex;
 justify-content: center;
 }
 .main-container {
-    width: 100%;
-    /*max-width: 1440px;/*desktop*/
-	/*width: 375px;/*mobile first*/
-    /*padding: 0 50px; */
-	/*border:2px solid red;/**/
-    box-sizing: border-box;		
+width: 100%;
 }
 
 
