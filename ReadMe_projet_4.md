@@ -1,7 +1,8 @@
 
 
 
-http://localhost/Projet_4_Dev_v4/
 
 
-http://localhost/Projet_4_Dev_v4/restaurants/la_palette_du_gout.html#
+https://locbernard35.github.io/Ohmyfood/index.html
+
+https://locbernard35.github.io/Ohmyfood/restaurants/a_la_francaise.html

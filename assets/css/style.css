@@ -26,6 +26,7 @@ a,
 i,
 pre,
 code {
+	font-size: unset;
     font-weight: unset;
     line-height: unset;
     padding: 0;
@@ -42,29 +43,88 @@ ol, ul {
 
 
 
-/*Balises sémantiques:
-minimum =>(header), (nav),(h1)-h2-h3,(main),(section),article,(footer)=>True
+/*Balises sémantiques>
+minimum =>(header), (nav),(h1)-h2-h3,(main),(section),(footer)=>True
+
+*/
+/*Polices>
+Logo et titres : Shrikhand
+Texte : Roboto
+
+*/
+/*Couleurs>
+Primaire, Secondaire ,Tertiaire
+
+violet-foncé:
+#9356DC
+rose-clair:
+#FF79DA 
+vert-clair:
+#99E2D0
+*/
+/*(px) All fima Mobile
+font-size=>  15.4,16,17,18,24,28,30;desktop 40
+font-weight=>300,400,500,700,
+line-height=>17.63, 18.75, 19.92, 21.09, 21.09, 26.24, 28.13, 
 */
 
 /******Css Pricipal Mobile first+++***********/
 
-* {/*All-éléments-Dom*/   
+/*
+*-- {All-éléments-Dom  
+	font-family: Roboto,sans-serif;
+}
+*/
+p,h1,h2,h4{
 	font-family: Roboto,sans-serif;
 }
 
 /*Design System Config: couleurs  charte
 */
-:root {	
-	/*Colors */
-    --main-color: #0065FC;/*bleu*/
-    --main-bg-color: #F2F2F2;/*gris*/
-    --filter-bg-color: #DEEBFF;/*bleu claire*/
+:root {/*Var-all*/	
+	/*Colors-all *//*ok*/
+    --violet: #0065FC;/*violet-foncé*/
+    --rose:   #F2F2F2;/*rose-clair*/
+    --vert:   #DEEBFF;/*vert-clair*/
 	
-   /*Text configuration*/
-    --h1-font-size:1.375rem;/*22px*/
+   /*Text configuration*/ 
+   
+   /*var-all font-size*/
+   
+    --size-15-4:1.375rem;
+	--size-16:1rem;
+	--size-17:1.063rem;
+	--size-18:1.125rem;
+	--size-24:1.5rem;
+	--size-28:1.75rem;
+	--size-30:1.875rem;
+	
+	/*var font-weight*/
+	
+	--font-weight-300:300;
+	--font-weight-400:400;
+	--font-weight-500:500;
+	--font-weight-700:700;	
+	
+   /*var-all line-height*/
+    --line-height-16-41:1.026rem;
+    --line-height-17-63:1.102rem;	
+	--line-height-18-75 :1.172rem;	
+	--line-height-19-92:1.245rem;	
+	--line-height-21-09:1.318rem;		
+	--line-height-26-24:1.64rem;	
+	--line-height-28-13:1.758rem;	
+	
+	
+	/*var-all font-family*/
+	--font-family:Shrikhand;
+/*--------------------------------------*/   
+   
+   /*var-*/   
+    --h1-font-size:1.375rem;/*22px*/	
 	--h1-font-weight: 700;/* bold 700*/
 	--h1-line-height: 1.614rem;/*25.83px*/  
- 
+	
     --h2-font-size:1.125rem;/*18px*/
 	--h2-font-weight: 700;/* bold 700*/
 	--h2-line-height: 1.321rem;/*21.13px*/  
@@ -113,48 +173,96 @@ width: 100%;
 }
 
 
-/*Text-All
+/*Text-All Add elem (x) class=""
 */
 
-
 h1{
+/*	
 font-size:var(--h1-font-size);
 font-weight:var(--h1-font-weight);
 line-height:var(--h1-line-height);	
+
+*/
 }
-h2{
-font-size:var(--h2-font-size);
-font-weight:var(--h2-font-weight);
-line-height:var(--h2-line-height);		
+.text-1{
+font-size:var(--size-16);
+line-height:var(--line-height-18-75);
+font-weight:var(--font-weight-500);
 }
-h3{
-font-size:var(--h3-font-size);
-font-weight:var(--h3-font-weight);
-line-height:var(--h3-line-height);			
-}
-h4{
-font-size:var(--h4-font-size);
-font-weight:var(--h4-font-weight);
-line-height:var(--h4-line-height);	
-}
-p{
-font-size:var(--p-font-size);
-font-weight:var(--p-font-weight);
-line-height:var(--p-line-height);
-}
-.h1{
-font-size:var(--h1-font-size);
-font-weight:var(--h1-font-weight);
-line-height:var(--h1-line-height);
+.text-2{/*<h1>*/
+font-size:var(--size-24);
+line-height:var(--line-height-28-13);
+font-weight:var(--font-weight-700);	
 	
 }
+.text-3{/*bottom-clone*/
+font-size:var(--size-18);
+line-height:var(--line-height-21-09);
+font-weight:var(--font-weight-300);		
+}
+.text-4{/*bottom*/
+font-size:var(--size-18);
+line-height:var(--line-height-21-09);
+font-weight:var(--font-weight-300);		
+}
+.text-5{/*<h2>*/
+font-size:var(--size-24);
+line-height:var(--line-height-28-13);
+font-weight:var(--font-weight-700);		
+}
+.text-6{/**/
+font-size:var(--size-16);
+line-height:var(--line-height-18-75);
+font-weight:var(--font-weight-500);		
+}
+.text-7{/**/
+font-size:var(--size-24);
+line-height:var(--line-height-28-13);
+font-weight:var(--font-weight-700);		
+}
+.text-8{/**/
+font-size:var(--size-18);
+line-height:var(--line-height-21-09);
+font-weight:var(--font-weight-700);		
+}
+.text-8-1{/*new*/
+font-size:var(--size-14);
+line-height:var(--line-height-16-41);
+font-weight:var(--font-weight-500);		
+}
+.text-9{/**/
+font-size:var(--size-17);
+line-height:var(--line-height-19-92);
+font-weight:var(--font-weight-300);		
+}
+
+/*footer*/
+.text-10{/*logo*/
+font-size:var(--size-18);
+line-height:var(--line-height-26-24);
+font-weight:var(--font-weight-400);
+font-family: Shrikhand;	
+}
+.text-11{/**/
+font-size:var(--size-16);
+line-height:var(--line-height-18-75);
+font-weight:var(--font-weight-500);
+}
+.text-12{/**/
+font-size:var(--size-16);
+line-height:var(--line-height-18-75);
+font-weight:var(--font-weight-400);
+}
+
+
+
+
+
 
 /*Surcharge-All
 */
 /*<header>-All 
 */
-
-
 
 /*composant-loader
 */
@@ -278,20 +386,6 @@ background-color:#fff;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*Composant-1
 */
 .container-logo{/*flex*/
@@ -384,6 +478,14 @@ border-radius: 100px;
 background-color: #686868;
 background-image: linear-gradient(0deg,rgba(147,86,220,.9),rgba(255,121,218,.9));
 }
+.container-bt-1-e1:hover {
+border-radius: 100px;
+background-image: linear-gradient(0deg,#9356DC,rgb(255,136,222));
+}
+
+
+
+
 
 /*Composant-4
 */
@@ -575,8 +677,6 @@ width:100%;
 width:137.58px;
 height:27px;
 color: #fff;
-font-family: Shrikhand,"cursive";
-font-size: 1.2rem;
 margin-bottom:20px;
 }
 
