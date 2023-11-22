@@ -1,5 +1,5 @@
 /*Surcharge
-***************/
+*/
 html,
 body,
 header,
@@ -40,56 +40,22 @@ text-decoration: none;
 ol, ul {
   list-style: none;
 }
-
-
-
-/*Balises sémantiques>
-minimum =>(header), (nav),(h1)-h2-h3,(main),(section),(footer)=>True
-
-*/
-/*Polices>
-Logo et titres : Shrikhand
-Texte : Roboto
-
-*/
-/*Couleurs>
-Primaire, Secondaire ,Tertiaire
-
-violet-foncé:
-#9356DC
-rose-clair:
-#FF79DA 
-vert-clair:
-#99E2D0
-*/
-/*(px) All fima Mobile
-font-size=>  15.4,16,17,18,24,28,30;desktop 40
-font-weight=>300,400,500,700,
-line-height=>17.63, 18.75, 19.92, 21.09, 21.09, 26.24, 28.13, 
-*/
-
-/******Css Pricipal Mobile first+++***********/
-
-/*
-*-- {All-éléments-Dom  
-	font-family: Roboto,sans-serif;
-}
-*/
+/******Css Pricipal (Mobile first)***********/
 p,h1,h2,h4{
 	font-family: Roboto,sans-serif;
 }
 
-/*Design System Config: couleurs  charte
+/*Caractère: Design System Config: couleurs  charte
 */
-:root {/*Var-all*/	
-	/*Colors-all *//*ok*/
-    --violet: #0065FC;/*violet-foncé*/
-    --rose:   #F2F2F2;/*rose-clair*/
-    --vert:   #DEEBFF;/*vert-clair*/
+:root {
+	/*Colors-all */
+    --violet: #0065FC;
+    --rose:   #F2F2F2;
+    --vert:   #DEEBFF;
 	
    /*Text configuration*/ 
    
-   /*var-all font-size*/
+   /*font-size*/
    
     --size-15-4:1.375rem;
 	--size-16:1rem;
@@ -98,29 +64,25 @@ p,h1,h2,h4{
 	--size-24:1.5rem;
 	--size-28:1.75rem;
 	--size-30:1.875rem;
+	--size-40:2.5rem;
 	
-	/*var font-weight*/
+	/*font-weight*/
 	
 	--font-weight-300:300;
 	--font-weight-400:400;
 	--font-weight-500:500;
 	--font-weight-700:700;	
 	
-   /*var-all line-height*/
+   /*line-height*/
     --line-height-16-41:1.026rem;
     --line-height-17-63:1.102rem;	
 	--line-height-18-75 :1.172rem;	
 	--line-height-19-92:1.245rem;	
 	--line-height-21-09:1.318rem;		
 	--line-height-26-24:1.64rem;	
-	--line-height-28-13:1.758rem;	
+	--line-height-28-13:1.758rem;
 	
-	
-	/*var-all font-family*/
-	--font-family:Shrikhand;
-/*--------------------------------------*/   
-   
-   /*var-*/   
+   /*v*/   
     --h1-font-size:1.375rem;/*22px*/	
 	--h1-font-weight: 700;/* bold 700*/
 	--h1-line-height: 1.614rem;/*25.83px*/  
@@ -146,16 +108,18 @@ p,h1,h2,h4{
 
 /*Icone-All
 */
-.fa-solid{/*Icone-color*/
+
+.fa-solid{
     color: var(--main-color);
 	color: #353535;
 }
-.fa-lg{/*Taille*/
+.fa-lg{
   font-size: 1.25rem;
 }
 
 /*Color-All
 */
+
 .c1{
 color:#fff;	
 }
@@ -173,94 +137,86 @@ width: 100%;
 }
 
 
-/*Text-All Add elem (x) class=""
+/*Caractère-All
 */
-
-h1{
-/*	
-font-size:var(--h1-font-size);
-font-weight:var(--h1-font-weight);
-line-height:var(--h1-line-height);	
-
+/*Mobil first Acceuil:
 */
-}
 .text-1{
 font-size:var(--size-16);
 line-height:var(--line-height-18-75);
 font-weight:var(--font-weight-500);
 }
-.text-2{/*<h1>*/
+.text-2{
 font-size:var(--size-24);
 line-height:var(--line-height-28-13);
 font-weight:var(--font-weight-700);	
 	
 }
-.text-3{/*bottom-clone*/
+.text-3{
 font-size:var(--size-18);
 line-height:var(--line-height-21-09);
 font-weight:var(--font-weight-300);		
 }
-.text-4{/*bottom*/
+.text-4{
 font-size:var(--size-18);
 line-height:var(--line-height-21-09);
 font-weight:var(--font-weight-300);		
 }
-.text-5{/*<h2>*/
+.text-5{
 font-size:var(--size-24);
 line-height:var(--line-height-28-13);
 font-weight:var(--font-weight-700);		
 }
-.text-6{/**/
+.text-6{
 font-size:var(--size-16);
 line-height:var(--line-height-18-75);
 font-weight:var(--font-weight-500);		
 }
-.text-7{/**/
+.text-7{
 font-size:var(--size-24);
 line-height:var(--line-height-28-13);
 font-weight:var(--font-weight-700);		
 }
-.text-8{/**/
+.text-8{
 font-size:var(--size-18);
 line-height:var(--line-height-21-09);
 font-weight:var(--font-weight-700);		
 }
-.text-8-1{/*new*/
+.text-8-1{
 font-size:var(--size-14);
 line-height:var(--line-height-16-41);
 font-weight:var(--font-weight-500);		
 }
-.text-9{/**/
+.text-9{
 font-size:var(--size-17);
 line-height:var(--line-height-19-92);
 font-weight:var(--font-weight-300);		
 }
 
-/*footer*/
-.text-10{/*logo*/
+/*footer
+*/
+
+.text-10{
 font-size:var(--size-18);
 line-height:var(--line-height-26-24);
 font-weight:var(--font-weight-400);
-font-family: Shrikhand;	
+font-family: 'Shrikhand', serif;
 }
-.text-11{/**/
+.text-11{
 font-size:var(--size-16);
 line-height:var(--line-height-18-75);
 font-weight:var(--font-weight-500);
 }
-.text-12{/**/
+.text-12{
 font-size:var(--size-16);
 line-height:var(--line-height-18-75);
 font-weight:var(--font-weight-400);
 }
 
 
-
-
-
-
 /*Surcharge-All
 */
+
 /*<header>-All 
 */
 
@@ -388,6 +344,7 @@ background-color:#fff;
 
 /*Composant-1
 */
+
 .container-logo{/*flex*/
 width:100%;
 display: flex;
@@ -403,8 +360,12 @@ height:44px;
 width:162px;
 }
 
+/*<main>-All
+*/
+
 /*Composant-2
 */
+
 .container-location{/*flex*/
 width:100%;
 height:50px;
@@ -412,20 +373,21 @@ height:50px;
 display: flex;
 justify-content: center;
 
-background-color:#f3f3f3;/*firma=>#eaeaea*/
+background-color:#f3f3f3;
 margin-bottom:20px;
 }
-.container-location-e1{/*icon*/
+.container-location-e1{
 padding:15px;
 box-sizing:border-box;	
 }
-.container-location-e2{/*text:Paris, Belleville*/
+.container-location-e2{
 padding-top:15px;
 box-sizing:border-box;
 }
 
 /*Composant-3
 */
+
 .container-text1{/*flex(1)*/
 display: flex;
 flex-direction: row;
@@ -433,7 +395,7 @@ justify-content: center ;
 margin-bottom:20px;
 
 }
-.container-text1-e1{/*flex()*//*Media query (Desktop)*//*text=>Réservez le menu qui vous convient*/
+.container-text1-e1{/*flex()*/
 width:100%;
 text-align:center;
 /*========================>(Desktop)*/
@@ -449,23 +411,16 @@ flex-direction: row;
 justify-content: center ;
 margin-bottom:20px;	
 }
-.container-text2-e1{/*e-1 text=>Découvrez des restaurants d'exception,séléctionnés par nos soins*/
+.container-text2-e1{/*e-1*/
 width:100%;
 text-align:center;
-/*========================>(Desktop)*/
-/*
-display: flex;
-flex-direction: row;
-justify-content: center ;
-*/
 }
-
 .container-bt-1{/*flex(1)*/
 display: flex;
 flex-direction: row;
 justify-content: center ;	
 }
-.container-bt-1-e1{/*e-1 (Bouton)=>Explorer nos restaurants*/
+.container-bt-1-e1{/*e-1*/
 cursor: pointer;
 
 font-weight: 500;
@@ -483,12 +438,9 @@ border-radius: 100px;
 background-image: linear-gradient(0deg,#9356DC,rgb(255,136,222));
 }
 
-
-
-
-
 /*Composant-4
 */
+
 .container-fonctionnement{
 width:100%;
 display: flex;
@@ -498,24 +450,16 @@ align-items: flex-start;
 padding:20px;
 box-sizing:border-box;
 }
-.container-fonctionnement-b{/*text=>fonctionnement*/
+.container-fonctionnement-b{
 margin-bottom:20px;	
 }
-.container-fonctionnement-c{/*flex() <li>*//*media query=>desktop*/
+.container-fonctionnement-c{/*flex()*/
 width:100%;
-
 display: flex;
-flex-direction: column;/*Mobil*/
-
-
-/*flex-direction: row;/*Desktop*/
-/*justify-content:space-between;/*Desktop*/
+flex-direction: column;
 }
-
-
-.container-fonctionnement-c-e1{/*flex()=>Contenu=> <li>*/
+.container-fonctionnement-c-e1{/*flex()*/
 height:72.38px;
-/*width:30%;/*Desktop*/
 
 padding: 1.5rem;
 box-sizing:border-box;
@@ -528,9 +472,8 @@ flex-direction: row;
 
 margin-bottom:20px;	
 }
-.container-fonctionnement-c-e1-e1{/*numbre 1 ronde*/
-height:24px;/*fima*/
-width:24px;/*fima*/
+.container-fonctionnement-c-e1-e1{
+width:24px;
 margin-left:-37px;
 
 color:#fff;
@@ -544,12 +487,11 @@ box-sizing:border-box;
 
 background: #9356dc;	
 }
-.container-fonctionnement-c-e1-e2{/*icone*/
+.container-fonctionnement-c-e1-e2{
 margin-left:15px;margin-right:15px;	
 }
 
-
-/*Composant-5 (Mobile=>first)
+/*Composant-5 
 */
 
 .container-restaurants{
@@ -581,8 +523,7 @@ width:100%;
 position:relative;
 z-index:0;	
 }
-
-.container-cart-new{/*flex()*//*true*/
+.container-cart-new{/*flex()*/
 display: flex;
 justify-content: flex-end; 	
 
@@ -590,7 +531,7 @@ position:relative;
 top:-170px;
 z-index:0;
 }
-.container-cart-flase{/*flase*/
+.container-cart-flase{
 display:none;	
 }
 .cart-new{/*text=>nouveaux*/
@@ -604,16 +545,14 @@ padding: 0.5rem;
 border-radius: 0.125rem;
 background-color: #99e2d0;	
 }
-
 .cart-foot{/*flex*/
 display: flex;
 justify-content: space-between;
 }
-
-.cart-foot-e1{/*droit*/
+.cart-foot-e1{
 padding:20px;	
 }
-.cart-foot-e2{/*gauche*/
+.cart-foot-e2{
 }
 .container-cart-coeur{
 width:22px;	
@@ -621,32 +560,29 @@ margin-top:28px;
 margin-right:15px;	
 	
 }
-
 /*icone-coeur*/
-.cart-coeur{/*container-icone*//*Mecanisme opacité css Nas +++*/
+.cart-coeur{
 height:21px;
 width:22px;
 position:absolute;
 right:unset;
-
 margin-top:unset;
 background-color:#fff;
 cursor: pointer;	
 }
-.icon-coeur-1{/*icone 1*//*depart*/
+.icon-coeur-1{
 position:absolute;
 left:0px;	
 font-size: 21px;
 color:#000;
 opacity: 1;
-
 }
-.icon-coeur-2{/*icone 1*//*depart*//*degradé*//*z-index*/
+.icon-coeur-2{
 position:absolute;
 font-size: 21px;
 color:#000;  
   
-background: -webkit-linear-gradient( #9356DC,#FF79DA);/*color fima onglet=>linear*/
+background: -webkit-linear-gradient( #9356DC,#FF79DA);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 opacity: 0;
@@ -657,114 +593,82 @@ opacity: 0;
 }
 .icon-coeur-2:hover{ 
 opacity: 1;
-
 }
 
 
+/*<footer>-All
+*/
+
 /*Composant-6
 */
-.container-footer{/*G*/
+.container-footer{
 width:100%;
 padding:20px;
 box-sizing:border-box;	
 background-color: #353535;	
 }
-
-.footer-e1{	/*container=>logo*/
+.footer-e1{	
 width:100%;			
 }
-.footer-e1-e1{/*logo text*/
+.footer-e1-e1{
 width:137.58px;
 height:27px;
 color: #fff;
 margin-bottom:20px;
 }
-
-.ul-footer-e2{/*<ul>*/	
+.ul-footer-e2{	
 }
-.li-footer-e2{/*<li>*/
+.li-footer-e2{
 margin-bottom:15px;	
 
 }
-.footer-icon{/*icone*/
+.footer-icon{
 color:#fff;		
 }
-.footer-text-1{/*text*/
+.footer-text-1{
 color:#fff;		
 }
-
-
-/*<main>-All
-***************/
-
-
-/*<footer>-All
-***************/
-
-footer {
-background-color:#353535;
-	
-}
-
-
-.D{display:none}
 
 /****** Media queries ***********/
-
-/* Medium devices (Parametre=>Malek, less/equal than 768px) */
+/* Medium devices (Param=>Malek, less/equal than 768px) */
 @media (min-width: 768px) {
-
-
-body {	
-/*
-border:3px solid green;
-box-sizing:border-box;
-*/
-}
-
 
 /*Composant-3 
 */
-.container-text1-e1{/*flex()*//*Media query (Desktop)*//*text=>Réservez le menu qui vous convient*/
+
+.container-text1-e1{/*flex()*/
 width:100%;
 text-align:unset;
-
 display: flex;
 flex-direction: row;
 justify-content: center ;
-
-
-
 }
-.container-text2-e1{/*e-1 text=>Découvrez des restaurants d'exception,séléctionnés par nos soins*/
+.container-text2-e1{/*e-1*/
 width:100%;
 text-align:unset;
-
 display: flex;
 flex-direction: row;
 justify-content: center ;
-
 }
 
 /*Composant-4 
 */
+
 .container-fonctionnement{
 min-width:768px;
 margin:auto;
-
 }
-.container-fonctionnement-c-e1{/*flex()=>Contenu=> <li>*/
+.container-fonctionnement-c-e1{/*flex()*/
 width:30%;
 }
-.container-fonctionnement-c{/*flex() <li>*//*media query=>desktop*/
+.container-fonctionnement-c{/*flex()*/
 flex-direction: row;
 justify-content:space-between;
 }
 
-
-
 /*Composant-5
 */
+
 .container-restaurants-a{	
 width:100%;
 background-color:#F6F6F6;
@@ -777,7 +681,7 @@ margin:auto;
  display: flex;
  justify-content: space-between ;
 }
-.carts-restaurants-e1{/*<li>=>*/
+.carts-restaurants-e1{/*<li>*/
 width:48%;
 }
 .container-restaurants-e1-flex-2{/*flex*/
@@ -795,7 +699,7 @@ width:100%;
 position:relative;
 z-index:10;	
 }
-.container-cart-new{/*flex*//*true*/
+.container-cart-new{/*flex*/
 display: flex;
 justify-content: flex-end; 	
 
@@ -803,10 +707,10 @@ position:relative;
 top:-170px;
 z-index:100;
 }
-.container-cart-flase{/*flase*/
+.container-cart-flase{
 display:none;	
 }
-.cart-new{/*text=>nouveaux*//*ok*/
+.cart-new{
 width:80px;
 margin:unset;
 position:unset;
@@ -817,10 +721,10 @@ margin-right:20px;
 display: flex;
 justify-content: space-between;
 }
-.cart-foot-e1{/*droit*/
+.cart-foot-e1{
 padding:20px;	
 }
-.cart-foot-e2{/*gauche*/
+.cart-foot-e2{
 }
 .container-cart-coeur{
 width:22px;	
@@ -828,8 +732,7 @@ margin-top:28px;
 margin-right:15px;	
 	
 }
-.cart-coeur{/*container-icone*//*Mecanisme opacité css Nas +++*/
-height:21px;
+.cart-coeur{
 width:22px;
 position:absolute;
 right:unset;
@@ -839,38 +742,32 @@ background-color:#fff;
 cursor: pointer;	
 }
 
-
-
-
 /*Composant-6
 */
-.container-footer{/*parent=>height:114px;*/
-padding:unset;
 
-height:114px;/*fima*/
+.container-footer{
+padding:unset;
+height:114px;
 width:100%;
 padding:20px;
-
 box-sizing:border-box;	
 background-color: #353535;	
-
 display: flex;
 flex-direction: row-reverse;
 }
-.footer-e1{/*container-logo*//*ok*/
+.footer-e1{
 height:70px;
 width:137.58px;
 
 padding-top:32px;
 box-sizing:border-box;			
 }
-.footer-e1-e1{/*logo text*//*ok*/
+.footer-e1-e1{
 margin:unset;
-
 height:27px;
 width:137.58px;
 }
-.ul-footer-e2{/*container-logo*//*parent-G=>height:114px;*//*ok*/
+.ul-footer-e2{
 height:70px;
 width:700px;
 
@@ -880,16 +777,15 @@ box-sizing:border-box;
 display: flex;
 justify-content: flex-start	;
 }
-.li-footer-e2{/*<li>-All*/
+.li-footer-e2{
 margin-bottom:unset;
 margin-right:10px;
 }
-.li-footer-e2-id_2{/*<li>ID=>Unique*/
+.li-footer-e2-id_2{
 margin-right:40px;;	
 }
 .footer-icon{
 }
-
 
 }
 
@@ -897,25 +793,18 @@ margin-right:40px;;
 /* Medium devices (Desktop, less/equal than 1440px) */
 @media (min-width: 1440px) {
 
-body {	
-/*
-border:2px solid blue ;
-box-sizing:border-box;
-*/
-}
 
 /*Composant-3
 */
-.container-text1-e1{/*flex()*//*Media query (Desktop)*//*text=>Réservez le menu qui vous convient*/
+
+.container-text1-e1{/*flex()*/
 width:100%;
 text-align:unset;
-
 display: flex;
 flex-direction: row;
 justify-content: center ;
-
 }
-.container-text2-e1{/*e-1 text=>Découvrez des restaurants d'exception,séléctionnés par nos soins*/
+.container-text2-e1{/*e-1*/
 width:100%;
 text-align:unset;
 
@@ -926,35 +815,36 @@ justify-content: center ;
 
 /*Composant-4
 */
+
 .container-fonctionnement{
-width:1080px;/*fima*/
+width:1080px;
 margin:auto;
 }
-.container-fonctionnement-c-e1{/*flex()=>Contenu=> <li>*/
-width:30%;/*Desktop*/
+.container-fonctionnement-c-e1{
+width:30%;
 }
-.container-fonctionnement-c{/*flex() <li>*//*media query=>desktop*/
-flex-direction: row;/*Desktop*/
-justify-content:space-between;/*Desktop*/
+.container-fonctionnement-c{/*flex()*/
+flex-direction: row;
+justify-content:space-between;
 }
 
 /*Composant-5
 */
+
 .container-restaurants-a{
 width:100%;
 background-color:#F6F6F6;
-
 }
 .container-restaurants{
-width:1080px;/*fima*/
+width:1080px;
 margin:auto;
 }
 .container-restaurants-e1-flex-1{/*flex*/
  display: flex;
  justify-content: space-between ;	
 }
-.carts-restaurants-e1{/*<li>=>4*/
-width:490px;/*fima*/
+.carts-restaurants-e1{
+width:490px;
 
 }
 .container-restaurants-e1-flex-2{/*flex*/
@@ -962,37 +852,33 @@ width:490px;/*fima*/
  justify-content: space-between ;	
 }
 
-
-
 /*Composant-6
 */
-.container-footer{/*parent=>height:114px;*/
-padding:unset;
 
-height:114px;/*fima*/
+.container-footer{
+padding:unset;
+height:114px;
 width:100%;
 padding:20px;
-
 box-sizing:border-box;	
 background-color: #353535;	
-
 display: flex;
 flex-direction: row-reverse;
 }
-.footer-e1{/*container-logo*/
+.footer-e1{
 height:70px;
 width:137.58px;
 
 padding-top:32px;
 box-sizing:border-box;			
 }
-.footer-e1-e1{/*logo text*/
+.footer-e1-e1{
 margin:unset;
 
 height:27px;
 width:137.58px;
 }
-.ul-footer-e2{/*container-logo*//*parent-G=>height:114px;*/
+.ul-footer-e2{
 height:70px;
 width:700px;
 
@@ -1002,17 +888,33 @@ box-sizing:border-box;
 display: flex;
 justify-content: flex-start	;
 }
-.li-footer-e2{/*<li>-All*/
+.li-footer-e2{
 margin-bottom:unset;
 margin-right:10px;
 
 box-sizing:border-box;
 }
-.li-footer-e2-id_2{/*<li>ID=>Unique*/
+.li-footer-e2-id_2{
 margin-right:50px;;	
 }
 .footer-icon{
 }
+
+
+
+/*Caractère-All
+*/
+.text-2{
+font-size:var(--size-40);
+line-height:var(--line-height-28-13);
+font-weight:var(--font-weight-700);	
+}
+.text-4{
+font-size:var(--size-16);
+line-height:var(--line-height-18-75);
+font-weight:var(--font-weight-500);		
+}
+
 
 	
 }
