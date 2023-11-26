@@ -1,0 +1,10 @@
+
+
+
+le lien vers repository GitHub:
+
+https://github.com/locbernard35/Ohmyfood.git
+
+Le lien de la version en ligne de mon site Internet::
+
+https://locbernard35.github.io/Ohmyfood/index.html

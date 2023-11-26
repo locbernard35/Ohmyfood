@@ -312,7 +312,7 @@ body {
   bottom: 0;
   z-index: 0;
   opacity: 0;
-  animation: call_frame_1 3s;
+  animation: call_frame_1 1s;
   /*T*/
 }
 
