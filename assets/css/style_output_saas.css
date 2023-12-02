@@ -314,7 +314,7 @@ body {
   bottom: 0;
   z-index: 0;
   opacity: 0;
-  animation: call_frame_1 1s;
+  animation: call_frame_1 0.5s;
   /*T*/
 }
 
