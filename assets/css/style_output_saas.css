@@ -186,10 +186,12 @@ p, h1, h2, h4 {
   color: #fff;
 }
 
-.c2 {
-  /*icone*/
-  color: #7e7e7e;
+.c2 {/*icone*/
+
+color: #7e7e7e;
 }
+
+
 
 body {
   display: flex;
@@ -564,9 +566,14 @@ body {
   background-color: #f6f6f6;
   display: flex;
   flex-direction: row;
-  margin-bottom: 20px;
+  margin-bottom: 20px;  
 }
-
+.container-fonctionnement-c-e1:hover{	
+cursor: pointer;
+}
+.container-fonctionnement-c-e1:hover >.container-fonctionnement-c-e1-e2 .c2{
+color:#9356DC;
+}
 .container-fonctionnement-c-e1-e1 {
   /*numbre 1 ronde*/
   height: 24px;
@@ -596,6 +603,7 @@ body {
   padding: 20px;
   box-sizing: border-box;
   background-color: #F6F6F6;
+  
 }
 
 .container-restaurants-b {
@@ -608,6 +616,7 @@ body {
   background-color: #fff;
   overflow: hidden;
   margin-bottom: 20px;
+  
 }
 
 .cart-top {
@@ -628,7 +637,7 @@ body {
   display: flex;
   justify-content: flex-end;
   position: relative;
-  top: -170px;
+  top: -182px;
   z-index: 0;
 }
 
@@ -640,8 +649,8 @@ body {
 .cart-new {
   /*text=>nouveaux*/
   position: absolute;
-  right: 35px;
-  margin-top: 15px;
+  right: 12px;
+  margin-top: 0px;
   color: #1b6150;
   padding: 0.5rem;
   border-radius: 0.125rem;
@@ -856,13 +865,13 @@ body {
     z-index: 10;
   }
 
-  .container-cart-new {
+  .container-cart-new {/*update 2.12.2023*/
     /*flex*/
     /*true*/
     display: flex;
     justify-content: flex-end;
     position: relative;
-    top: -170px;
+    top: -182px;
     z-index: 100;
   }
 
@@ -878,7 +887,7 @@ body {
     margin: unset;
     position: unset;
     right: unset;
-    margin-right: 20px;
+    margin-right: 12px;
   }
 
   .cart-foot {

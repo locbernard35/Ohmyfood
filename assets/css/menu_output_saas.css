@@ -253,11 +253,13 @@ body {
   border: 0px solid red;
   box-sizing: border-box;
   overflow: hidden;
+  
 }
 
 .c2-image {
   height: 275px;
   width: 100%;
+ object-fit:cover;
 }
 
 /*Composant-3
